@@ -6,3 +6,8 @@ A criação da TopFlix foi inspirada na interface da Netflix a partir do Desafio
 - CSS3
 - JavaScript
 - jQuery
+
+## 📱 REDES SOCIAIS
+#### [Linkedin](https://www.linkedin.com/in/matheusfelipetp/)
+
+#### [Instagram](https://www.instagram.com/matheusfelipetp/)
