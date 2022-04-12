@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -12,13 +14,16 @@
 <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
 <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
+ <!--DIALOG BOX-->
+ <link rel="stylesheet" href="style/dialog-box.css">
+
     <title>TopFlix - assista séries e filmes quando e onde quiser</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2 id="inicio" class="logo">TOPFLIX</h2>
+            <h2 id="inicio" class="logo">CINEFLIX</h2>
             <nav>
                 <a href="#inicio">Inicío</a>
                 <a href="#series">Séries</a>
@@ -35,14 +40,28 @@
                 <h3 class="titulo">VINGADORES: ULTIMATO</h3>
                 <p class="sinopse">Após os eventos devastadores de "Vingadores: Guerra Infinita", o universo está em ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes, os Vingadores devem se reunir mais uma vez a fim de desfazer as ações de Thanos e restaurar a ordem no universo de uma vez por todas, não importando as consequências.</p>
             <div class="botoes"> 
+                <a href="https://www.youtube.com/watch?v=g6ng8iy-l0U&t=59s" target="_blank">
                 <button role="button" class="botao">
                     <i class="fa-solid fa-play"></i>
                     ASSISTIR AGORA
                 </button>
-                <button role="button" class="botao">
+            </a>
+                <button role="button" class="botao" id="myBtn">
                     <i class="fa-solid fa-circle-info"></i>
                     MAIS INFORMAÇÕES
                 </button>
+                <div id="myModal" class="modal">                        
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <ul class="text-dialog">
+                            <li> Título: Vingadores: Ultimato </li>
+                            <li> Data de lançamento: 25 de Abril de 2019 </li>
+                            <li> Gênero: Aventura, Ação, Ficção Científica </li>
+                            <li> Duração: 3 horas e 1 minuto </li>
+                            <li> Diretor: Joe Russo e Anthony Russo </li>
+                        </ul>
+                    </div>
+                </div>
                </div>
             </div>
         </div>
@@ -212,6 +231,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/owl/dialog-box.js"></script>
 
 </body>
 </html>

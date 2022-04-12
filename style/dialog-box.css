@@ -1,0 +1,45 @@
+.modal {
+    display: none;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: rgb(51, 48, 48);
+    margin: auto;
+    padding-right: 10px;
+    border: 1px solid red;
+    width: 50%;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover {
+    color: red
+  }
+  
+  .close:focus {
+    color: black
+  }
+
+  .text-dialog {
+    color:#fff;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+ }
